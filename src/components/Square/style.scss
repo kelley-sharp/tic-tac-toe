@@ -1,0 +1,49 @@
+.square {
+  max-height: 3em;
+  max-width: 3em;
+  padding: 3em;
+  border: 1px solid blue;
+}
+
+.square00 {
+  border-left: none;
+  border-top: none;
+}
+
+.square01 {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.square02 {
+  border-top: none;
+  border-right: none;
+}
+
+.square10 {
+  border-left: none;
+  border-right: none;
+}
+
+.square12 {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.square20 {
+  border-left: none;
+  border-bottom: none;
+}
+
+.square21 {
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+}
+
+.square22 {
+  border-bottom: none;
+  border-right: none;
+}

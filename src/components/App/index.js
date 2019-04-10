@@ -8,15 +8,18 @@ class App extends Component {
 
     this.state = {
       gameOver: false,
-      currentPlayer: 1,
+      currentPlayer: 'X',
+      turn: 1,
       message: '',
-      buttonText: 'Start game'
+      buttonText: 'Start game',
+      squares: [[null, null, null], [null, null, null], [null, null, null]],
+      winner: null
     };
   }
   render() {
     return (
-      <div className="App">
-        <Board />
+      <div className="board">
+        <Board squares={this.state.squares} />
       </div>
     );
   }
