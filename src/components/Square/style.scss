@@ -1,53 +1,19 @@
+.row {
+  display: flex;
+  border-bottom: 2px solid blue;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
 .square {
   max-height: 100%;
   max-width: 100%;
   padding: 3em;
-  border: 2px solid blue;
-
+  // border-bottom: 2px solid blue;
+  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.square00 {
-  border-left: none;
-  border-top: none;
-}
-
-.square01 {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
-
-.square02 {
-  border-top: none;
-  border-right: none;
-}
-
-.square10 {
-  border-left: none;
-  border-right: none;
-}
-
-.square12 {
-  border-left: none;
-  border-right: none;
-  border-top: none;
-}
-
-.square20 {
-  border-left: none;
-  border-bottom: none;
-}
-
-.square21 {
-  border-left: none;
-  border-bottom: none;
-  border-right: none;
-}
-
-.square22 {
-  border-bottom: none;
-  border-right: none;
 }

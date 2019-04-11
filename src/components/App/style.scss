@@ -1,8 +1,4 @@
 .board {
-  display: grid;
-  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-  grid-column-gap: 0;
-
   max-width: 50%;
   max-height: 100%;
   margin: 6em auto;

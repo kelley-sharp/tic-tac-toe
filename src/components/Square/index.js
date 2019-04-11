@@ -3,7 +3,14 @@ import './style.scss';
 
 class Square extends Component {
   render() {
-    return <div className={`square ${this.props.id}`}>Square</div>;
+    return (
+      <div
+        className={`square ${this.props.id}`}
+        onClick={this.props.handleClick}
+      >
+        {this.props.value}
+      </div>
+    );
   }
 }
 
