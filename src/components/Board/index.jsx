@@ -4,7 +4,7 @@ import Square from '../Square';
 
 class Board extends Component {
   render() {
-    return this.props.squares.map((row, rowIdx) => {
+    return this.props.board.map((row, rowIdx) => {
       return row.map((squareVal, colIdx) => {
         return (
           <Square

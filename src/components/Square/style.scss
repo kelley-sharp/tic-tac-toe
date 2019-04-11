@@ -1,8 +1,12 @@
 .square {
-  max-height: 3em;
-  max-width: 3em;
+  max-height: 100%;
+  max-width: 100%;
   padding: 3em;
-  border: 1px solid blue;
+  border: 2px solid blue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .square00 {
