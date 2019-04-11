@@ -1,5 +1,50 @@
+.app {
+  font-family: 'Martel', serif;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.header {
+  background-color: #f3f3f3;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+
 .board {
-  max-width: 50%;
-  max-height: 100%;
-  margin: 6em auto;
+  margin: 2em;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #a7eee5;
+  border-color: #a7eee5;
+  color: #05000e;
+  width: 100px;
+  height: 36px;
+  font-family: 'Martel', serif;
+  font-size: 15px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.pending-game-button {
+  margin-top: 20px;
+}
+
+.board-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
 }
