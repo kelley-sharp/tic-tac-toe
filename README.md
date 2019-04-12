@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-This is my React version of the game "Tic Tac Toe"! I really enjoyed making this classic. It can be ended and restarted at any time. Players, X and O, alternate turns until either a player wins by making three marks in a line, or it's a "scratch" (the board is filled, but niether player wins).
+This is my React version of the game "Tic Tac Toe"! I really enjoyed making this classic. It can be ended and restarted at any time. Players, X and O, alternate turns until either a player wins by making three marks in a line, or it's a "scratch" (the board is filled, but neither player wins).
 
 ## Design choices
 
