@@ -1,4 +1,4 @@
-export function didWin(board) {
+function didWin(board) {
   /* check rows and columns */
   for (let i = 0; i < board.length; i++) {
     //rows
@@ -26,7 +26,7 @@ export function didWin(board) {
   return false;
 }
 
-function hasWinner(slot1, slot2, slot3) {
+export function hasWinner(slot1, slot2, slot3) {
   // check if any of the three necessary slots are empty squares
   if (!slot1 || !slot2 || !slot3) {
     return false;
@@ -35,3 +35,5 @@ function hasWinner(slot1, slot2, slot3) {
   // when all slots have a value, return true if those values are equivalent
   return slot1 === slot2 && slot2 === slot3;
 }
+
+export default didWin;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches snapshot 1`] = `
+<div
+  className="app"
+>
+  <div>
+    <button
+      className="pending-game-button"
+      onClick={[Function]}
+    >
+      Start game
+    </button>
+    <div
+      className="message"
+    >
+      <p />
+    </div>
+    <div
+      className="board-placeholder"
+    />
+  </div>
+</div>
+`;

@@ -1,7 +1,7 @@
 .square {
-  max-height: 100%;
-  max-width: 100%;
-  padding: 3em;
+  height: 100px;
+  width: 100px;
+  padding: 0.5em;
   border: 3px solid;
   border-color: gray;
   display: flex;
@@ -9,6 +9,6 @@
   align-items: center;
 }
 
-.empty-square {
-  color: white;
+.mark {
+  font-size: 64px;
 }
